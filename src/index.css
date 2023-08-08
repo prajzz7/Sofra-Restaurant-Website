@@ -1,0 +1,54 @@
+
+
+body {
+  /* margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  /* background: #0b1315; */
+  background:linear-gradient(rgba(22, 21, 21, 0.882), rgba(9, 9, 9, 0.926)), url('E:/React/sofra-website/public/imagesFolder/food15-c.jpg');
+  background-size:     cover;                    
+  background-repeat:   no-repeat;
+  background-position: center center;
+  /* image-rendering: crisp-edges; */
+ /* image-rendering: -moz-crisp-edges;         Firefox */
+ /* image-rendering: -o-crisp-edges;           Opera */
+ /* image-rendering: -webkit-optimize-contrast; */
+ 
+  background-attachment: fixed;
+  
+}
+@media screen and (max-width:480px) {
+  body{
+    /* background: #0b1315; */
+    
+    /* margin: 0; */
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  /* background: #0b1315; */
+  background:linear-gradient(rgba(22, 21, 21, 0.882), rgba(9, 9, 9, 0.926)), url('E:/React/sofra-website/public/imagesFolder/food15-c.jpg');
+  background-size:    cover;
+       
+  background-attachment: fixed;
+  background-repeat:   no-repeat;
+  /* image-rendering: crisp-edges; */
+  
+
+    /* background-position: left; */
+   
+  }
+}
+/* E:/React/sofra-website/public/imagesFolder/food15-c.jpg */
+/* https://c4.wallpaperflare.com/wallpaper/149/176/53/retro-pattern-vector-dark-wallpaper-thumb.jpg */
+/* https://cdn.pixabay.com/photo/2017/01/26/02/06/platter-2009590_960_720.jpg */
+/* https://media.istockphoto.com/photos/indian-mughlai-cuisine-dum-biryani-or-rice-cooked-with-indian-spices-picture-id1318105867?k=20&m=1318105867&s=612x612&w=0&h=P_UFYXcaGHRQ5Fd-tb4Jioxfp0qvYw2U5uGb5WDvZ3g= */
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */

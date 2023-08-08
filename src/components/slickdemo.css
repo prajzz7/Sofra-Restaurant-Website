@@ -1,0 +1,40 @@
+.wdt{    
+    width: 90% !important;    
+}    
+.img    
+{    
+    height: 300px !important;    
+    width: 1134px;  
+    
+}    
+    
+.imgdetails    
+{    
+    height: 280px !important;    
+    width: 400px !important;   
+    border-radius: 15px; 
+    border: 7px solid #CAAF23;
+    
+}    
+    
+.imgpad    
+{    
+    padding-bottom: 40px !important;    
+    padding-top: 0px !important;    
+  padding-left: 50px !important;    
+  padding-right: 50px !important;    
+  
+  
+    
+}    
+  .cls    
+  {    
+    padding-right: 300px !important;    
+    background-color: rgb(110, 46, 46)   
+  }    
+
+  .sliderr{
+    height: 1000px;
+  }
+
+  

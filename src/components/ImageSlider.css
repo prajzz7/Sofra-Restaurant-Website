@@ -1,0 +1,140 @@
+.wdt{    
+    width: 90% !important;    
+}    
+/* .img    
+{    
+    height: 300px !important;    
+    width: 1134px;  
+    
+}     */
+    
+.imgdetails    
+{    
+    /* height: 300px !important;    
+    width: 420px !important;    */
+    border-radius: 15px; 
+    border: 7px solid #fabd2a; 
+    box-shadow: 0px 0px 20px #fabd2a;
+    
+}    
+@media screen and (max-width: 480px) {
+  .imgdetails{
+    
+    border-radius: 0; 
+    border: 0px solid #bba017; 
+    box-shadow: 0px 0px 0px #bba017;
+  }
+}
+
+/* .imgdetails:hover {
+    transform: scale(1.1) translateY(-20px);
+    
+} */
+
+/* .titleImage{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  background: linear-gradient( 180deg , rgba(0, 0, 0, 0.0001) 0%, #03172C 100%);
+  
+  
+  
+  
+} */
+
+.imgpad    
+{    
+    padding-bottom: 20px !important;    
+    padding-top: 0px !important;    
+  padding-left: 50px !important;    
+  padding-right: 50px !important;   
+  overflow: hidden; 
+  animation: 2s imgpad;  
+}    
+
+@media screen and (max-width: 480px) {
+  .imgpad{
+    padding-bottom: 20px !important;    
+    padding-top: 0px !important;    
+  padding-left: 0px !important;    
+  padding-right: 0px !important;   
+  overflow: hidden; 
+  animation: 2s imgpad;  
+  }
+}
+
+
+@keyframes imgpad{
+  from{
+    margin-left: 100%;
+  }
+  to{
+    margin-left: 0%;
+  }
+}
+
+
+  .cls    
+  {    
+    padding-right: 300px !important;    
+    background-color: rgb(110, 46, 46)   
+  }    
+
+  
+  .App{
+      align-items: center;
+    
+  }
+  
+
+
+
+  /* .item{
+    height: 10rem;
+    width: 30rem;
+    padding: 40px;
+} */
+
+/* .slider-main{
+    overflow: hidden;
+} */
+
+/* .image{
+    width: 1500px;
+    height: 600px;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.slider{
+    position: relative;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.right-arrow{
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow{
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+ */

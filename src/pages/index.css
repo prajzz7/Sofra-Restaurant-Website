@@ -1,0 +1,31 @@
+@font-face{
+    font-family: 'caviar_dreamsbold';
+    src:  url(../fonts/Caviar_Dreams_Bold.ttf)
+  }
+@font-face {
+    font-family: 'morris_roman';
+    src: url(../fonts/MorrisRoman-Black.ttf);
+}  
+
+
+.homec{
+    
+    margin-top: 75px;
+    text-align: center;
+    transition: all 0.6s ease-in;
+
+}
+
+.aboutc{
+    
+    
+}
+@media screen and (max_width:1000px) {
+    .aboutc{
+        padding-top:100px ;
+    }
+}
+
+.contactc{
+    
+}

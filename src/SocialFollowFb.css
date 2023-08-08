@@ -1,0 +1,24 @@
+.social-container {
+    background: rgb(0, 0, 0);
+    padding-top: 1rem;
+  }
+  @media screen and (max-width: 720px) {
+    .social-container{
+    padding-right: 20px;
+  }
+  }
+
+  a.facebook-social {
+    
+    transition: transform 250ms;
+    display: inline-block;
+    color: #fabd2a;
+    padding-top: 0.8rem;
+  }
+
+  a.facebook-social:hover {
+    transform: translateY(-4px);
+    color: #9c7a22;
+  }
+
+ 

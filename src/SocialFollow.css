@@ -1,0 +1,26 @@
+.social-container {
+    background: rgb(0, 0, 0);
+    padding-top: 0.8rem;
+  }
+  @media screen and (max-width: 720px) {
+    .social-container{
+    margin-top: -2px;  
+    margin-right: 10px;
+  }
+  }
+
+  a.instagram-social {
+    
+    transition: transform 250ms;
+    display: inline-block;
+    color: #fabd2a;
+    
+  }
+
+  a.instagram-social:hover {
+    transform: translateY(-5px);
+    color: #9c7a22;
+    
+  }
+
+  

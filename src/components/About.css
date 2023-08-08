@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Arabic1';
+    src: url(E:/React/sofra-website/src/fonts/EIDAL-FITR1.otf);
+}
+
+.about-main {
+    background: rgba(0, 0, 0, 0.85);
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+    overflow: hidden;
+}
+@media screen and (max-width: 1000px) {
+    .about-main{
+        margin: 100px 20px 20px 20px;
+        background: transparent;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 480px) {
+    .about-main{
+        margin: 100px 20px 20px 20px;
+        background: rgba(0, 0, 0, 0);
+        overflow: hidden;
+    }
+}
+
+.heading {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: caviar_dreamsbold, sans-serif;
+   
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fabd2a;
+    font-size: 40px;
+    font-family: caviar_dreamsbold, sans-serif;
+    letter-spacing: 8px;
+    word-spacing: 7px;
+    font-weight: 900;
+    
+    /* text-shadow:0px 0px 5px #fabd2a */
+}
+@media screen and (max-width: 480px) {
+    .heading{
+        padding-top: 0px ;
+        font-family: caviar_dreamsbold, sans-serif;
+        
+    }
+}
+
+.heading::after {
+    content: url(/public/text-divider/goldS.svg);
+    position: relative;
+    top: -25px;
+    display: block;
+    margin-bottom: -50px;
+}
+
+.image-container {
+    float: left;
+    width: 50%;
+}
+@media screen and (max-width: 1000px) {
+    .image-container{
+        display: none;
+    }
+}
+@media screen and (max-width: 480px) {
+    .image-container{
+        display: none;
+    }
+}
+
+.image {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 190px;
+    margin-bottom: 60px;
+    float: right;
+    box-shadow: 2px 2px 5px rgb(189, 159, 21);
+    
+}
+
+@media screen and (max-width: 1200px){
+    .image{
+        margin-right: 90px;
+        margin-top: 90px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .image{
+        margin-right: 90px;
+        margin-top: 90px;
+    }
+}
+
+
+.about-text {
+
+    color: #fff;
+    float: right;
+    width: 50%;
+    padding-top: 20px;
+    padding-right: 120px;
+    line-height: 35px;
+    /* text-transform: capitalize; */
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    
+}
+@media screen and (max-width: 1000px) {
+    .about-text{
+        padding: 40px 30px 30px 30px;
+        width:100%;
+        line-height: 50px;
+        word-spacing: 4px;
+        font-size: 23px;
+        
+    }
+}
+@media screen and (max-width: 480px) {
+    .about-text{
+        /* padding: 10px 20px 30px 20px;
+        line-height: 35px;
+        word-spacing: 3px;
+        font-size: 20px;
+        width:100%; */
+
+        padding: 10px 20px 30px;
+        width: 100%;
+        color: #fff;
+       
+        
+        
+       
+        line-height: 35px;
+        /* text-transform: capitalize; */
+        word-spacing: 3px;
+        letter-spacing: 2px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        
+    }
+}
+
